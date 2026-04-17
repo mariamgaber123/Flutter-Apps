@@ -13,10 +13,10 @@ Beginner-friendly and easy to understand.
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home](assets/images/home.png)
+<img width="314" height="600" alt="image" src="https://github.com/user-attachments/assets/2489951e-8ece-4f06-9462-676b3475a427" />
 
 ### 🔧 Service Screen
-![Service](assets/images/service.png)
+<img width="314" height="600" alt="image" src="https://github.com/user-attachments/assets/7710435e-b6ff-4663-a5cb-44bb3c89a40f" />
 
 ## 🛠️ Tech Stack
 - Flutter  
