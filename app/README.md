@@ -1,17 +1,45 @@
-# app
+# 🚗 Cars App
 
-A new Flutter project.
+## 📱 Overview
+A simple Flutter application that demonstrates basic navigation between screens.  
+Beginner-friendly and easy to understand.
 
-## Getting Started
+## 🎯 Features
+- 🚀 Simple navigation using Navigator.push  
+- 🎨 Custom AppBar styling  
+- 📱 Clean and responsive layout  
+- 👶 Easy for beginners  
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+### 🏠 Home Screen
+![Home](assets/images/home.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 🔧 Service Screen
+![Service](assets/images/service.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+- Flutter  
+- Dart  
+- Material UI  
+
+## 🚀 Getting Started
+
+### Installation
+git clone https://github.com/your-username/cars_app.git
+cd cars_app
+flutter pub get 
+
+### 📂 Project Structure
+* lib/
+* ├── main.dart
+* ├── pages/
+* │   ├── home.dart
+* │   └── service.dart
+
+### 🔄 Navigation
+Navigator.push(
+  context,
+  MaterialPageRoute(builder: (context) => Service()),
+);
+flutter run
