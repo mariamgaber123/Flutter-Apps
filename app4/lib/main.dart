@@ -47,7 +47,8 @@ class _MyWidgetState extends State<providerBage> {
         SizedBox(height: 10,),
         ElevatedButton(onPressed: (){
           model.change1();
-        }, child: Text("Happy ${model.i}",style:TextStyle(fontSize: 40))),
+        },style: ElevatedButton.styleFrom(backgroundColor: Colors.amber),
+         child: Text("Happy ${model.i}",style:TextStyle(fontSize: 40),)),
         SizedBox(height: 10,),
         ElevatedButton(onPressed: (){
           model.change2();
